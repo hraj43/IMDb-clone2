@@ -8,9 +8,9 @@ import Link from 'next/link';
 function Header() {
   return (
     <div className='flex justify-between items-center'>
-    <div className='flex lg:ml-28 gap-4'>
-        <MenuItem title="HOME" address="/" Icon={FaHome}/>
-        <MenuItem title="ABOUT" address="/about" Icon={BsInfoCircleFill}/>
+    <div className='flex lg:ml-28 gap-4 text-xl'>
+        <MenuItem title="Home" address="/" Icon={FaHome}/>
+        <MenuItem title="About" address="/about" Icon={BsInfoCircleFill}/>
     </div>
     <div className=' mr-6 lg:mr-20 mt-4 flex items-center space-x-4 '>
       <DarkModeSwitch/>
