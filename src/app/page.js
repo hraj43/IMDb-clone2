@@ -9,7 +9,7 @@ export default async function Home({ searchParams }) {
     "User-Agent": "Thunder Client (https://www.thunderclient.com)",
   };
   let reqOptions = {
-    url: `https://api.themoviedb.org/3/${genre==="fetchTopRated"?"movie/top_rated":"trending/all/week"}?api_key=${API_KEY}&language=en-us&page=1`,
+    url: `https://api.themoviedb.org/3/${genre==="fetchTopRated"?"movie/top_rated":"trending/all/week"}?api_key=${API_KEY}&language=en-us&page=4`,
     method: "GET",
     headers: headersList,
   };
